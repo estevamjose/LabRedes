@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Editais IFRN</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark shadow-lg">
+          <div class="container">
+            <a href="#" class="navbar-brand">
+              <img src="img/logo.png" alt="Logo" height="70">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Notícias</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="editais.html">Editais</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contato</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Campus
+                  </a>
+                  <ul class="dropdown-menu">
+                    <!--Gatilho do modal-->
+                    <li>
+                      <a class="dropdown-item" href="#campus-caico" data-bs-toggle="modal" data-bs-target="#Caico">Caicó</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#campus-mossoro" data-bs-toggle="modal" data-bs-target="#Mossoro">Mossoró</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#campus-natal" data-bs-toggle="modal" data-bs-target="#Natal">Natal</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#campus-currais" data-bs-toggle="modal" data-bs-target="#Currais">Currais</a>
+                    </li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Outro</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        <!--Modals-->
+        <div id="Caico" class="modal fade">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Campus Caicó</h3>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/campus-caico.jfif" alt="Campus Caicó">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                    <h5>Cursos ministrados: </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                    <h5>Quantidade de alunos: </h5>
+                    <p>850</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div id="Mossoro" class="modal fade">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Campus Mossoró</h3>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/campus-mossoro.jfif" alt="Campus Mossoró">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                    <h5>Cursos ministrados: </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                    <h5>Quantidade de alunos: </h5>
+                    <p>450</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div id="Natal" class="modal fade">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Campus Natal</h3>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/campus-natal.jpg" width="400px" alt="Campus Natal">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                    <h5>Cursos ministrados: </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                    <h5>Quantidade de alunos: </h5>
+                    <p>1100</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+                  </div>
+            </div>
+          </div>
+        </div>
+        <div id="Currais" class="modal fade">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Campus Currais</h3>
+                    <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="img/campus-currais.jpg" width="400px" alt="Campus Currais">
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                    <h5>Cursos ministrados: </h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                    <h5>Quantidade de alunos: </h5>
+                    <p>300</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+                  </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+      <!-- EDITAIS DOS IFRNS DO RIO GRANDE DO NORTE -->
+
+      <div class="container p-5">
+        <div class="row">
+          <div class="text-center p-4 bg-success text-white ">
+            <h3>EDITAIS</h3>
+          </div>
+          <button type="button" class="btn btn-success btn-lg col m-3 p-3"><a>Edital 2023</a></button>
+          <button type="button" class="btn btn-success btn-lg col m-3 p-3">Edital 2022</button>
+          <button type="button" class="btn btn-success btn-lg col m-3 p-3">Edital 2021</button>
+          <button type="button" class="btn btn-success btn-lg col m-3 p-3">Edital 2020</button>
+          <button type="button" class="btn btn-success btn-lg col m-3 p-3">Edital 2019</button>
+          <button type="button" class="btn btn-success btn-lg col m-3 p-3">Edital 2018</button>
+          <svg class="mt-4 p-2" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 12px; width: 12px; stroke: currentcolor; stroke-width: 5.33333; overflow: visible; cursor:pointer;"><g fill="none"><path d="m12 4 11.2928932 11.2928932c.3905243.3905243.3905243 1.0236893 0 1.4142136l-11.2928932 11.2928932"></path></g></svg>
+        </div>
+    </div>
+    
+    <div class="container p-1 mt-1">
+        <h3>PARA MAIS INFORMAÇÕES :</h3>
+        <br>
+        <h5>1 - Acessar o Portal da Instituição: https://portal.ifrn.edu.br/ensino/editais;</h5>
+        <h5>2 - No menu superior, localizar “editais” -> “Licitações e Contratos”; </h5>
+        <h5>3 - Clicar em Editais ;</h5>
+        <h5>4 - Utilizar a barra lateral esquerda de filtros para escolher um filtro. As opções de filtro são: data do resultado da compra, data de abertura, situação, modalidade, instrumento legal de contratação e órgão. Para acessar os dados, colocar, no filtro “órgão”, o nome Ministério da Cidadania ou o código 55000;</h5>
+        <h5>5 - Depois é só clicar em Consultar.</h5>
+    </div>
+
+    <div class="container-fluid bg-success" id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+          <div class="col-md-4 d-flex align-items-center m-auto">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-white">© 2023 IFRN, Instituto Federal do Rio Grande do Norte.</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex m-auto">
+            <li class="ms-3">
+              <a class="text-white" href="#">
+                <i class="bi bi-twitter" style="font-size: 2rem;"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-white" href="#">
+                <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="text-white" href="#">
+                <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+              </a>
+            </li>
+          </ul>
+        </footer>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

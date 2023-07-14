@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IFRN News</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark shadow-lg">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <img src="img/logo.png" alt="Logo" height="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Noticias">Notícias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="editais.html">Editais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contato</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Campus
+              </a>
+              <ul class="dropdown-menu">
+                <!--Gatilho do modal-->
+                <li>
+                  <a class="dropdown-item" href="#campus-caico" data-bs-toggle="modal" data-bs-target="#Caico">Caicó</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#campus-mossoro" data-bs-toggle="modal" data-bs-target="#Mossoro">Mossoró</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#campus-natal" data-bs-toggle="modal" data-bs-target="#Natal">Natal</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#campus-currais" data-bs-toggle="modal" data-bs-target="#Currais">Currais</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Outro</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Modals-->
+    <div id="Caico" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Campus Caicó</h3>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/campus-caico.jfif" alt="Campus Caicó">
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                <h5>Cursos ministrados: </h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                <h5>Quantidade de alunos: </h5>
+                <p>850</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div id="Mossoro" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Campus Mossoró</h3>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/campus-mossoro.jfif" alt="Campus Mossoró">
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                <h5>Cursos ministrados: </h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                <h5>Quantidade de alunos: </h5>
+                <p>450</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div id="Natal" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Campus Natal</h3>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/campus-natal.jpg" width="400px" alt="Campus Natal">
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                <h5>Cursos ministrados: </h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                <h5>Quantidade de alunos: </h5>
+                <p>1100</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+    <div id="Currais" class="modal fade">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title">Campus Currais</h3>
+                <button type="button" class="btn btn-close" data-bs-dismiss="modal"></button>
+              </div>
+              <div class="modal-body">
+                <img src="img/campus-currais.jpg" width="400px" alt="Campus Currais">
+                <hr>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam blanditiis quaerat quia aspernatur harum doloremque consequuntur ab.
+                <h5>Cursos ministrados: </h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, laudantium?</p>
+                <h5>Quantidade de alunos: </h5>
+                <p>300</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-bs-dismiss="modal">Voltar</button>
+              </div>
+        </div>
+      </div>
+    </div>
+
+  </header>
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide mb-3">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="img/img1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/img2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/img3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img4.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container m-auto" id="Noticias">
+      <div class="row">
+        <div class="col-sm-12 col-lg-6 mb-3">
+          <div class="card">
+            <img src="img/img5.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Planejamento</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda asperiores esse et, corporis itaque explicabo molestiae dignissimos excepturi omnis dolorum ut consectetur mollitia rem beatae accusamus! Quas laudantium repellat, reiciendis vitae blanditiis quo quam aperiam cupiditate quidem omnis est dolorem!</p>
+              <a href="#" class="btn btn-primary">Leia mais</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-6 m-auto">
+          <div class="row mb-2">
+            <div class="col-lg-12 col-xl-6 mb-2">
+              <div class="card m-auto" style="width: 17rem;">
+                <img src="img/img6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Educação</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt ea facilis esse odio.</p>
+                  <a href="#" class="btn btn-primary">Leia mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-xl-6">
+              <div class="card m-auto" style="width: 17rem;">
+                <img src="img/img7.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Música</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt ea facilis esse odio.</p>
+                  <a href="#" class="btn btn-primary">Leia mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12 col-xl-6 mb-2">
+              <div class="card m-auto" style="width: 17rem;">
+                <img src="img/img8.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Teatro</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt ea facilis esse odio.</p>
+                  <a href="#" class="btn btn-primary">Leia mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-xl-6 mb-2">
+              <div class="card m-auto" style="width: 17rem;">
+                <img src="img/img9.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Literatura</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt ea facilis esse odio.</p>
+                  <a href="#" class="btn btn-primary">Leia mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div class="container-fluid bg-success" id="footer">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 mt-4 border-top">
+      <div class="col-md-4 d-flex align-items-center m-auto">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-white">© 2023 IFRN, Instituto Federal do Rio Grande do Norte.</span>
+      </div>
+  
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex m-auto">
+        <li class="ms-3">
+          <a class="text-white" href="#">
+            <i class="bi bi-twitter" style="font-size: 2rem;"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-white" href="#">
+            <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="text-white" href="#">
+            <i class="bi bi-facebook" style="font-size: 2rem;"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+</html>
